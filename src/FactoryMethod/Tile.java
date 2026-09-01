@@ -1,4 +1,5 @@
-package com.example.suunnittelumallit;
+
+package FactoryMethod;
 
 public abstract class Tile {
     public abstract char getCharacter();

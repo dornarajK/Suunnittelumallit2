@@ -1,5 +1,5 @@
-package com.example.suunnittelumallit;
 
+package FactoryMethod;
 public class WaterTile extends Tile {
     @Override
     public char getCharacter() {

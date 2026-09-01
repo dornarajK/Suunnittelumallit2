@@ -1,5 +1,5 @@
-package com.example.suunnittelumallit;
 
+package FactoryMethod;
 
 public class Game {
 
@@ -9,7 +9,7 @@ public class Game {
 
     public Map createMap(String type, int width, int height) {
         return switch (type) {
-            case "city" -> new CityMap(width, height);
+            case "city" -> new BuildingTile.CityMap(width, height);
             case "wilderness" -> new WildernessMap(width, height);
             default -> throw new IllegalArgumentException("Unknown map type: " + type);
         };

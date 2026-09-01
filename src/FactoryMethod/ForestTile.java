@@ -1,4 +1,5 @@
-package com.example.suunnittelumallit;
+
+package FactoryMethod;
 
 public class ForestTile extends Tile {
     @Override

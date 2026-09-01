@@ -1,4 +1,4 @@
-package com.example.suunnittelumallit;
+package FactoryMethod;
 
 public abstract class Map {
     protected final int width;
